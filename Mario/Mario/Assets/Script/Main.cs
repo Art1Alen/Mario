@@ -14,7 +14,7 @@ namespace PlatformerMVC
             _playerConfig = Resources.Load<AnimationCfg>("SpriteAnimCfg");
             _playerAnimator = new SpriteAnimatorController(_playerConfig);
             _playerAnimator.StartAnimation(_playerView.SpriteRenderer, AnimState.Run,true, _animationSpeed);
-            
+        
         }
 
 
